@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F073400C29131B7F002F3E08 /* HyperLinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F073400B29131B7F002F3E08 /* HyperLinkApp.swift */; };
+		F073400E29131B7F002F3E08 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F073400D29131B7F002F3E08 /* Persistence.swift */; };
+		F073401129131B7F002F3E08 /* HyperLink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F073400F29131B7F002F3E08 /* HyperLink.xcdatamodeld */; };
+		F073401329131B7F002F3E08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F073401229131B7F002F3E08 /* ContentView.swift */; };
+		F073401529131B81002F3E08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F073401429131B81002F3E08 /* Assets.xcassets */; };
+		F073401929131B81002F3E08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F073401829131B81002F3E08 /* Preview Assets.xcassets */; };
+		F073402329131B81002F3E08 /* HyperLinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F073402229131B81002F3E08 /* HyperLinkTests.swift */; };
+		F073402D29131B81002F3E08 /* HyperLinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F073402C29131B81002F3E08 /* HyperLinkUITests.swift */; };
+		F073402F29131B81002F3E08 /* HyperLinkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F073402E29131B81002F3E08 /* HyperLinkUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F073401F29131B81002F3E08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F073400029131B7F002F3E08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F073400729131B7F002F3E08;
+			remoteInfo = HyperLink;
+		};
+		F073402929131B81002F3E08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F073400029131B7F002F3E08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F073400729131B7F002F3E08;
+			remoteInfo = HyperLink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F073400829131B7F002F3E08 /* HyperLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyperLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F073400B29131B7F002F3E08 /* HyperLinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperLinkApp.swift; sourceTree = "<group>"; };
+		F073400D29131B7F002F3E08 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F073401029131B7F002F3E08 /* HyperLink.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HyperLink.xcdatamodel; sourceTree = "<group>"; };
+		F073401229131B7F002F3E08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F073401429131B81002F3E08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F073401629131B81002F3E08 /* HyperLink.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HyperLink.entitlements; sourceTree = "<group>"; };
+		F073401829131B81002F3E08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F073401E29131B81002F3E08 /* HyperLinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyperLinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F073402229131B81002F3E08 /* HyperLinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperLinkTests.swift; sourceTree = "<group>"; };
+		F073402829131B81002F3E08 /* HyperLinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyperLinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F073402C29131B81002F3E08 /* HyperLinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperLinkUITests.swift; sourceTree = "<group>"; };
+		F073402E29131B81002F3E08 /* HyperLinkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperLinkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F073400529131B7F002F3E08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F073401B29131B81002F3E08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F073402529131B81002F3E08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0733FFF29131B7F002F3E08 = {
+			isa = PBXGroup;
+			children = (
+				F073400A29131B7F002F3E08 /* HyperLink */,
+				F073402129131B81002F3E08 /* HyperLinkTests */,
+				F073402B29131B81002F3E08 /* HyperLinkUITests */,
+				F073400929131B7F002F3E08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F073400929131B7F002F3E08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F073400829131B7F002F3E08 /* HyperLink.app */,
+				F073401E29131B81002F3E08 /* HyperLinkTests.xctest */,
+				F073402829131B81002F3E08 /* HyperLinkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F073400A29131B7F002F3E08 /* HyperLink */ = {
+			isa = PBXGroup;
+			children = (
+				F073400B29131B7F002F3E08 /* HyperLinkApp.swift */,
+				F073400D29131B7F002F3E08 /* Persistence.swift */,
+				F073401229131B7F002F3E08 /* ContentView.swift */,
+				F073401429131B81002F3E08 /* Assets.xcassets */,
+				F073401629131B81002F3E08 /* HyperLink.entitlements */,
+				F073400F29131B7F002F3E08 /* HyperLink.xcdatamodeld */,
+				F073401729131B81002F3E08 /* Preview Content */,
+			);
+			path = HyperLink;
+			sourceTree = "<group>";
+		};
+		F073401729131B81002F3E08 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F073401829131B81002F3E08 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F073402129131B81002F3E08 /* HyperLinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				F073402229131B81002F3E08 /* HyperLinkTests.swift */,
+			);
+			path = HyperLinkTests;
+			sourceTree = "<group>";
+		};
+		F073402B29131B81002F3E08 /* HyperLinkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F073402C29131B81002F3E08 /* HyperLinkUITests.swift */,
+				F073402E29131B81002F3E08 /* HyperLinkUITestsLaunchTests.swift */,
+			);
+			path = HyperLinkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F073400729131B7F002F3E08 /* HyperLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F073403229131B81002F3E08 /* Build configuration list for PBXNativeTarget "HyperLink" */;
+			buildPhases = (
+				F073400429131B7F002F3E08 /* Sources */,
+				F073400529131B7F002F3E08 /* Frameworks */,
+				F073400629131B7F002F3E08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HyperLink;
+			productName = HyperLink;
+			productReference = F073400829131B7F002F3E08 /* HyperLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F073401D29131B81002F3E08 /* HyperLinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F073403529131B81002F3E08 /* Build configuration list for PBXNativeTarget "HyperLinkTests" */;
+			buildPhases = (
+				F073401A29131B81002F3E08 /* Sources */,
+				F073401B29131B81002F3E08 /* Frameworks */,
+				F073401C29131B81002F3E08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F073402029131B81002F3E08 /* PBXTargetDependency */,
+			);
+			name = HyperLinkTests;
+			productName = HyperLinkTests;
+			productReference = F073401E29131B81002F3E08 /* HyperLinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F073402729131B81002F3E08 /* HyperLinkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F073403829131B81002F3E08 /* Build configuration list for PBXNativeTarget "HyperLinkUITests" */;
+			buildPhases = (
+				F073402429131B81002F3E08 /* Sources */,
+				F073402529131B81002F3E08 /* Frameworks */,
+				F073402629131B81002F3E08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F073402A29131B81002F3E08 /* PBXTargetDependency */,
+			);
+			name = HyperLinkUITests;
+			productName = HyperLinkUITests;
+			productReference = F073402829131B81002F3E08 /* HyperLinkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F073400029131B7F002F3E08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F073400729131B7F002F3E08 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					F073401D29131B81002F3E08 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F073400729131B7F002F3E08;
+					};
+					F073402729131B81002F3E08 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F073400729131B7F002F3E08;
+					};
+				};
+			};
+			buildConfigurationList = F073400329131B7F002F3E08 /* Build configuration list for PBXProject "HyperLink" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0733FFF29131B7F002F3E08;
+			productRefGroup = F073400929131B7F002F3E08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F073400729131B7F002F3E08 /* HyperLink */,
+				F073401D29131B81002F3E08 /* HyperLinkTests */,
+				F073402729131B81002F3E08 /* HyperLinkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F073400629131B7F002F3E08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F073401929131B81002F3E08 /* Preview Assets.xcassets in Resources */,
+				F073401529131B81002F3E08 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F073401C29131B81002F3E08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F073402629131B81002F3E08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F073400429131B7F002F3E08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F073400C29131B7F002F3E08 /* HyperLinkApp.swift in Sources */,
+				F073401129131B7F002F3E08 /* HyperLink.xcdatamodeld in Sources */,
+				F073401329131B7F002F3E08 /* ContentView.swift in Sources */,
+				F073400E29131B7F002F3E08 /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F073401A29131B81002F3E08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F073402329131B81002F3E08 /* HyperLinkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F073402429131B81002F3E08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F073402D29131B81002F3E08 /* HyperLinkUITests.swift in Sources */,
+				F073402F29131B81002F3E08 /* HyperLinkUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F073402029131B81002F3E08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F073400729131B7F002F3E08 /* HyperLink */;
+			targetProxy = F073401F29131B81002F3E08 /* PBXContainerItemProxy */;
+		};
+		F073402A29131B81002F3E08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F073400729131B7F002F3E08 /* HyperLink */;
+			targetProxy = F073402929131B81002F3E08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F073403029131B81002F3E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F073403129131B81002F3E08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F073403329131B81002F3E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HyperLink/HyperLink.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HyperLink/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bernstein.zach.HyperLink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F073403429131B81002F3E08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HyperLink/HyperLink.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HyperLink/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bernstein.zach.HyperLink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F073403629131B81002F3E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bernstein.zach.HyperLinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HyperLink.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HyperLink";
+			};
+			name = Debug;
+		};
+		F073403729131B81002F3E08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bernstein.zach.HyperLinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HyperLink.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HyperLink";
+			};
+			name = Release;
+		};
+		F073403929131B81002F3E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bernstein.zach.HyperLinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HyperLink;
+			};
+			name = Debug;
+		};
+		F073403A29131B81002F3E08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bernstein.zach.HyperLinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HyperLink;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F073400329131B7F002F3E08 /* Build configuration list for PBXProject "HyperLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F073403029131B81002F3E08 /* Debug */,
+				F073403129131B81002F3E08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F073403229131B81002F3E08 /* Build configuration list for PBXNativeTarget "HyperLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F073403329131B81002F3E08 /* Debug */,
+				F073403429131B81002F3E08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F073403529131B81002F3E08 /* Build configuration list for PBXNativeTarget "HyperLinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F073403629131B81002F3E08 /* Debug */,
+				F073403729131B81002F3E08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F073403829131B81002F3E08 /* Build configuration list for PBXNativeTarget "HyperLinkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F073403929131B81002F3E08 /* Debug */,
+				F073403A29131B81002F3E08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F073400F29131B7F002F3E08 /* HyperLink.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F073401029131B7F002F3E08 /* HyperLink.xcdatamodel */,
+			);
+			currentVersion = F073401029131B7F002F3E08 /* HyperLink.xcdatamodel */;
+			path = HyperLink.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F073400029131B7F002F3E08 /* Project object */;
+}
